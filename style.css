@@ -1,0 +1,30 @@
+ /* filter table specific styling */
+ td.alt {
+    background-color: #ffc;
+    background-color: rgba(255, 255, 0, 0.2);
+}
+body{
+    background-color: #1a1b5b;
+    color: #ffffff;
+    font-size: 15px;
+}
+table, tr{
+    width: 100%;
+    
+}
+
+table,th,tr,td{
+    border: 1px solid #ffffff;
+    background: #202a9b none repeat scroll 0 0;
+    border-bottom: 2px solid #d4d4d4;
+	text-align:center;
+    padding: 16.4px 21px;
+	cursor:pointer;
+    
+  }
+  table.rounded-corners {
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    border: 1px solid #202a9b;
+  }
